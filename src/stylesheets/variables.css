@@ -1,0 +1,47 @@
+:root {
+
+    /* Grid spacing */
+
+    --sp: 4px;
+    --sp2: calc(2 * var(--sp));
+    --sp3: calc(3 * var(--sp));
+    --sp4: calc(4 * var(--sp));
+    --sp5: calc(5 * var(--sp));
+    --sp6: calc(6 * var(--sp));
+    --sp7: calc(7 * var(--sp));
+    --sp8: calc(8 * var(--sp));
+    --sp12: calc(12 * var(--sp));
+    --sp16: calc(16 * var(--sp));
+    --sp24: calc(24 * var(--sp));
+    --sp32: calc(32 * var(--sp));
+
+    /* Typography */
+
+    --font-size: 16px;
+    --font-size--small: 12px;
+    --font-size--large: 18px;
+    --font-weight: 400;
+    --font-main: Source Sans Pro, sans-serif;
+    --line-height: 16px;
+
+    /* Base styles */
+
+    --background: var(--color-white);
+    --color: var(--color-black);
+    --border-radius: 3px;
+
+    --color-primary: var(--color-blue--500);
+    --color-primary-text: var(--color-white);
+
+    --link-color: var(--color-blue--500);
+
+    --control-height: var(--sp8);
+    --control-focus-color: var(--color-blue--300);
+
+    --input-color: var(--color-black);
+    --input-background: var(--color-white);
+    --input-border-color: var(--color-gray--200);
+    --input-icon-color: var(--color-gray--300);
+    --input-icon-color--focus: var(--color-blue--300);
+
+}

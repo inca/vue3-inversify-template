@@ -1,0 +1,32 @@
+html, body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--font-main);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+    color: var(--color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+input {
+    border: 0;
+    background: transparent;
+    outline: 0;
+    width: auto;
+    font: inherit;
+}
+
+article * {
+    line-height: 1.5;
+}

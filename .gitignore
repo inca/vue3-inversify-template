@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.eslintcache
+.DS_Store
+.tmp*
+*.tsbuildinfo
+
+out/
+dist/
+
+.env*
+!.env.example
+!.env.test

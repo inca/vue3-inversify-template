@@ -1,0 +1,45 @@
+.button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    box-sizing: border-box;
+    height: var(--control-height);
+    padding: var(--sp) var(--sp2);
+
+    border: 0;
+    border-radius: var(--border-radius);
+    background: transparent;
+    color: var(--button-color);
+    outline: none;
+
+    font: inherit;
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.button--round {
+    border-radius: var(--sp8);
+}
+
+.button__icon + span, span + .button__icon {
+    margin-left: var(--sp2);
+}
+
+.button:focus, .button:focus-within {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px var(--control-focus-color);
+}
+
+.button--white {
+    color: var(--color-black);
+    background: var(--color-white);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.button--primary {
+    background: var(--color-primary);
+    color: var(--color-primary-text);
+    box-shadow: 0 1px 2px rgba(0,0,0,.25);
+}

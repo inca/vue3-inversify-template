@@ -1,0 +1,4 @@
+{
+    "reporter": "spec",
+    "spec": "./dist/test.js"
+}
